@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Sample Shopping Cart</h1>
+</header>
+
+<main>
+    <section id="product-list">
+        <h2>Products</h2>
+
+        <div class="product">
+            <span>Diet Coke 30x330ml</span>
+            <button onclick="addToCart('Diet Coke 30x330ml', 5820)">Add to Cart (Rs.5,820)</button>
+        </div>
+
+        <div class="product">
+            <span>Dyson Airwrap</span>
+            <button onclick="addToCart('Dyson Airwrap', 160000)">Add to Cart (Rs.1,60,000)</button>
+        </div>
+
+        <div class="product">
+            <span>Nintendo switch</span>
+            <button onclick="addToCart('Nintendo switch', 40000)">Add to Cart (Rs.40,000)</button>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cartItems">
+            <!-- Cart items will be added here -->
+        </ul>
+        <p id="totalPrice">Total Price: Rs.0</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Shopping Cart Example</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+

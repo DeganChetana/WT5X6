@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+#randomNumber {
+    font-weight: bold;
+    margin: 20px;
+    font-size: 18px;
+}
